@@ -29,4 +29,4 @@ jobs:
       run: ./SecretsManager/Secrets/generate_secrets_swift.sh
 
     - name: Build app
-      run: xcodebuild -workspace SecretsManager.xcworkspace -scheme SecretsManager -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.0' build
+      run: xcodebuild -project SecretsManager.xcodeproj -scheme SecretsManager -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.0' build
