@@ -23,10 +23,10 @@ jobs:
         xcode-version: '15.2'
 
     - name: Give execute permission to secrets script
-      run: chmod +x ./SecretsManager/Secrets/generate_secrets_swift.sh
+      run: chmod +x ./SecretsManager/Scripts/generate_secrets_swift.sh
 
     - name: Generate Secrets.swift
-      run: ./SecretsManager/Secrets/generate_secrets_swift.sh
+      run: ./SecretsManager/Scripts/generate_secrets_swift.sh
 
     - name: Build app
       run: xcodebuild -project SecretsManager.xcodeproj -scheme SecretsManager -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.2' build
