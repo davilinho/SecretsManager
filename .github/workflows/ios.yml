@@ -20,7 +20,7 @@ jobs:
     - name: Set up Xcode
       uses: maxim-lobanov/setup-xcode@v1
       with:
-        xcode-version: '15.6' # o la versión que uses
+        xcode-version: '15.2'
 
     - name: Generate Secrets.swift
       run: ./Scripts/generate_secrets_swift.sh
