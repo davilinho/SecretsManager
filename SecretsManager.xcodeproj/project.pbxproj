@@ -33,7 +33,7 @@
 		8BAC86242D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "SecretsManager" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Secrets/generate_secrets_swift.sh,
+				Scripts/generate_secrets_swift.sh,
 			);
 			target = 8BAC85F12D804FC7006E90F0 /* SecretsManager */;
 		};
@@ -44,7 +44,7 @@
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 8BAC85EE2D804FC7006E90F0 /* Sources */;
 			membershipExceptions = (
-				Secrets/generate_secrets_swift.sh,
+				Scripts/generate_secrets_swift.sh,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
@@ -126,6 +126,7 @@
 				8BAC85EE2D804FC7006E90F0 /* Sources */,
 				8BAC85EF2D804FC7006E90F0 /* Frameworks */,
 				8BAC85F02D804FC7006E90F0 /* Resources */,
+				8BAC86262D8053C3006E90F0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,6 +255,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BAC86262D8053C3006E90F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/SecretsManager/Scripts/generate_secrets_swift.sh",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ ! -f \"${SRCROOT}/SecretsManager/Secrets.swift\" ]; then\n    echo \"Secrets.swift not found. Generating...\"\n    export API_KEY=\"1234567890\"\n    ${SRCROOT}/SecretsManager/Scripts/generate_secrets_swift.sh\nelse\n    echo \"Secrets.swift is already created\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BAC85EE2D804FC7006E90F0 /* Sources */ = {
@@ -417,7 +439,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SecretsManager/Preview Content\"";
 				DEVELOPMENT_TEAM = NFB35DJG93;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -456,7 +478,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SecretsManager/Preview Content\"";
 				DEVELOPMENT_TEAM = NFB35DJG93;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
