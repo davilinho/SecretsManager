@@ -29,9 +29,33 @@
 		8BAC860D2D804FC9006E90F0 /* SecretsManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretsManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8BAC86242D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "SecretsManager" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Secrets/generate_secrets_swift.sh,
+			);
+			target = 8BAC85F12D804FC7006E90F0 /* SecretsManager */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		8BAC86252D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "Compile Sources" phase from "SecretsManager" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 8BAC85EE2D804FC7006E90F0 /* Sources */;
+			membershipExceptions = (
+				Secrets/generate_secrets_swift.sh,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8BAC85F42D804FC7006E90F0 /* SecretsManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8BAC86242D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "SecretsManager" target */,
+				8BAC86252D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "Compile Sources" phase from "SecretsManager" target */,
+			);
 			path = SecretsManager;
 			sourceTree = "<group>";
 		};
