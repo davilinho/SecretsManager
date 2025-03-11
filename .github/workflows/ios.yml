@@ -28,8 +28,5 @@ jobs:
     - name: Generate Secrets.swift
       run: ./SecretsManager/Secrets/generate_secrets_swift.sh
 
-    - name: Install dependencies
-      run: pod install || true
-
     - name: Build app
       run: xcodebuild -workspace SecretsManager.xcworkspace -scheme SecretsManager -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.0' build
