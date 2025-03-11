@@ -29,9 +29,7 @@ jobs:
       run: ./SecretsManager/Secrets/generate_secrets_swift.sh
 
     - name: Install dependencies
-      run: |
-        bundle install # Si usas Bundler
-        pod install || true # Si usas CocoaPods, opcional
+      run: pod install || true
 
     - name: Build app
       run: xcodebuild -workspace SecretsManager.xcworkspace -scheme SecretsManager -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.0' build
