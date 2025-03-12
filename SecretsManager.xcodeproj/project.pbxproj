@@ -128,10 +128,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${SRCROOT}/SecretsManager/Secrets.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Type a script or drag a script file from your workspace to insert its path.\nif [ ! -f \"${SRCROOT}/SecretsManager/Secrets.swift\" ]; then\n    echo \"Secrets.swift not found. Generating...\"\n    export API_KEY=\"1234567890\"\n    ${SRCROOT}/SecretsManager/Scripts/generate_secrets_swift.sh\nelse\n    echo \"Secrets.swift is already created\"\nfi\n";
+			shellScript = "#!/bin/bash\nif [ ! -f \"${SRCROOT}/SecretsManager/Secrets.swift\" ]; then\n    echo \"Secrets.swift not found. Generating...\"\n    export API_KEY=\"1234567890\"\n    ${SRCROOT}/SecretsManager/Scripts/generate_secrets_swift.sh\nelse\n    echo \"Secrets.swift is already created\"\nfi\n\ntouch ${SRCROOT}/SecretsManager/Secrets.swift\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
