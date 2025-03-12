@@ -6,87 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		8BAC86042D804FC9006E90F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BAC85EA2D804FC7006E90F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8BAC85F12D804FC7006E90F0;
-			remoteInfo = SecretsManager;
-		};
-		8BAC860E2D804FC9006E90F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BAC85EA2D804FC7006E90F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8BAC85F12D804FC7006E90F0;
-			remoteInfo = SecretsManager;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		8BAC85F22D804FC7006E90F0 /* SecretsManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretsManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BAC86032D804FC9006E90F0 /* SecretsManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretsManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BAC860D2D804FC9006E90F0 /* SecretsManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretsManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B54B44D2D816C4000045C19 /* SecretsManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretsManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8BAC86242D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "SecretsManager" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Scripts/generate_secrets_swift.sh,
-			);
-			target = 8BAC85F12D804FC7006E90F0 /* SecretsManager */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		8BAC86252D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "Compile Sources" phase from "SecretsManager" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 8BAC85EE2D804FC7006E90F0 /* Sources */;
-			membershipExceptions = (
-				Scripts/generate_secrets_swift.sh,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8BAC85F42D804FC7006E90F0 /* SecretsManager */ = {
+		8B54B44F2D816C4000045C19 /* SecretsManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8BAC86242D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "SecretsManager" target */,
-				8BAC86252D804FF4006E90F0 /* Exceptions for "SecretsManager" folder in "Compile Sources" phase from "SecretsManager" target */,
-			);
 			path = SecretsManager;
-			sourceTree = "<group>";
-		};
-		8BAC86062D804FC9006E90F0 /* SecretsManagerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SecretsManagerTests;
-			sourceTree = "<group>";
-		};
-		8BAC86102D804FC9006E90F0 /* SecretsManagerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SecretsManagerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8BAC85EF2D804FC7006E90F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BAC86002D804FC9006E90F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BAC860A2D804FC9006E90F0 /* Frameworks */ = {
+		8B54B44A2D816C4000045C19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,22 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8BAC85E92D804FC7006E90F0 = {
+		8B54B4442D816C4000045C19 = {
 			isa = PBXGroup;
 			children = (
-				8BAC85F42D804FC7006E90F0 /* SecretsManager */,
-				8BAC86062D804FC9006E90F0 /* SecretsManagerTests */,
-				8BAC86102D804FC9006E90F0 /* SecretsManagerUITests */,
-				8BAC85F32D804FC7006E90F0 /* Products */,
+				8B54B44F2D816C4000045C19 /* SecretsManager */,
+				8B54B44E2D816C4000045C19 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8BAC85F32D804FC7006E90F0 /* Products */ = {
+		8B54B44E2D816C4000045C19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BAC85F22D804FC7006E90F0 /* SecretsManager.app */,
-				8BAC86032D804FC9006E90F0 /* SecretsManagerTests.xctest */,
-				8BAC860D2D804FC9006E90F0 /* SecretsManagerUITests.xctest */,
+				8B54B44D2D816C4000045C19 /* SecretsManager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,135 +48,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BAC85F12D804FC7006E90F0 /* SecretsManager */ = {
+		8B54B44C2D816C4000045C19 /* SecretsManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BAC86172D804FC9006E90F0 /* Build configuration list for PBXNativeTarget "SecretsManager" */;
+			buildConfigurationList = 8B54B45C2D816C4100045C19 /* Build configuration list for PBXNativeTarget "SecretsManager" */;
 			buildPhases = (
-				8BAC85EE2D804FC7006E90F0 /* Sources */,
-				8BAC85EF2D804FC7006E90F0 /* Frameworks */,
-				8BAC85F02D804FC7006E90F0 /* Resources */,
-				8BAC86262D8053C3006E90F0 /* ShellScript */,
+				8B54B4492D816C4000045C19 /* Sources */,
+				8B54B44A2D816C4000045C19 /* Frameworks */,
+				8B54B44B2D816C4000045C19 /* Resources */,
+				8B54B4762D816CA500045C19 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8BAC85F42D804FC7006E90F0 /* SecretsManager */,
+				8B54B44F2D816C4000045C19 /* SecretsManager */,
 			);
 			name = SecretsManager;
 			packageProductDependencies = (
 			);
 			productName = SecretsManager;
-			productReference = 8BAC85F22D804FC7006E90F0 /* SecretsManager.app */;
+			productReference = 8B54B44D2D816C4000045C19 /* SecretsManager.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8BAC86022D804FC9006E90F0 /* SecretsManagerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BAC861A2D804FC9006E90F0 /* Build configuration list for PBXNativeTarget "SecretsManagerTests" */;
-			buildPhases = (
-				8BAC85FF2D804FC9006E90F0 /* Sources */,
-				8BAC86002D804FC9006E90F0 /* Frameworks */,
-				8BAC86012D804FC9006E90F0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8BAC86052D804FC9006E90F0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8BAC86062D804FC9006E90F0 /* SecretsManagerTests */,
-			);
-			name = SecretsManagerTests;
-			packageProductDependencies = (
-			);
-			productName = SecretsManagerTests;
-			productReference = 8BAC86032D804FC9006E90F0 /* SecretsManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8BAC860C2D804FC9006E90F0 /* SecretsManagerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BAC861D2D804FC9006E90F0 /* Build configuration list for PBXNativeTarget "SecretsManagerUITests" */;
-			buildPhases = (
-				8BAC86092D804FC9006E90F0 /* Sources */,
-				8BAC860A2D804FC9006E90F0 /* Frameworks */,
-				8BAC860B2D804FC9006E90F0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8BAC860F2D804FC9006E90F0 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8BAC86102D804FC9006E90F0 /* SecretsManagerUITests */,
-			);
-			name = SecretsManagerUITests;
-			packageProductDependencies = (
-			);
-			productName = SecretsManagerUITests;
-			productReference = 8BAC860D2D804FC9006E90F0 /* SecretsManagerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8BAC85EA2D804FC7006E90F0 /* Project object */ = {
+		8B54B4452D816C4000045C19 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					8BAC85F12D804FC7006E90F0 = {
+					8B54B44C2D816C4000045C19 = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					8BAC86022D804FC9006E90F0 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 8BAC85F12D804FC7006E90F0;
-					};
-					8BAC860C2D804FC9006E90F0 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 8BAC85F12D804FC7006E90F0;
 					};
 				};
 			};
-			buildConfigurationList = 8BAC85ED2D804FC7006E90F0 /* Build configuration list for PBXProject "SecretsManager" */;
+			buildConfigurationList = 8B54B4482D816C4000045C19 /* Build configuration list for PBXProject "SecretsManager" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8BAC85E92D804FC7006E90F0;
+			mainGroup = 8B54B4442D816C4000045C19;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8BAC85F32D804FC7006E90F0 /* Products */;
+			productRefGroup = 8B54B44E2D816C4000045C19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BAC85F12D804FC7006E90F0 /* SecretsManager */,
-				8BAC86022D804FC9006E90F0 /* SecretsManagerTests */,
-				8BAC860C2D804FC9006E90F0 /* SecretsManagerUITests */,
+				8B54B44C2D816C4000045C19 /* SecretsManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8BAC85F02D804FC7006E90F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BAC86012D804FC9006E90F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BAC860B2D804FC9006E90F0 /* Resources */ = {
+		8B54B44B2D816C4000045C19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,7 +116,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8BAC86262D8053C3006E90F0 /* ShellScript */ = {
+		8B54B4762D816CA500045C19 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,7 +124,6 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/SecretsManager/Scripts/generate_secrets_swift.sh",
 			);
 			outputFileListPaths = (
 			);
@@ -273,26 +131,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ ! -f \"${SRCROOT}/SecretsManager/Secrets.swift\" ]; then\n    echo \"Secrets.swift not found. Generating...\"\n    export API_KEY=\"1234567890\"\n    ${SRCROOT}/SecretsManager/Scripts/generate_secrets_swift.sh\nelse\n    echo \"Secrets.swift is already created\"\nfi\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Type a script or drag a script file from your workspace to insert its path.\nif [ ! -f \"${SRCROOT}/SecretsManager/Secrets.swift\" ]; then\n    echo \"Secrets.swift not found. Generating...\"\n    export API_KEY=\"1234567890\"\n    ${SRCROOT}/SecretsManager/Scripts/generate_secrets_swift.sh\nelse\n    echo \"Secrets.swift is already created\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BAC85EE2D804FC7006E90F0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BAC85FF2D804FC9006E90F0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BAC86092D804FC9006E90F0 /* Sources */ = {
+		8B54B4492D816C4000045C19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,21 +145,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8BAC86052D804FC9006E90F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8BAC85F12D804FC7006E90F0 /* SecretsManager */;
-			targetProxy = 8BAC86042D804FC9006E90F0 /* PBXContainerItemProxy */;
-		};
-		8BAC860F2D804FC9006E90F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8BAC85F12D804FC7006E90F0 /* SecretsManager */;
-			targetProxy = 8BAC860E2D804FC9006E90F0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		8BAC86152D804FC9006E90F0 /* Debug */ = {
+		8B54B45A2D816C4100045C19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		8BAC86162D804FC9006E90F0 /* Release */ = {
+		8B54B45B2D816C4100045C19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,7 +260,7 @@
 			};
 			name = Release;
 		};
-		8BAC86182D804FC9006E90F0 /* Debug */ = {
+		8B54B45D2D816C4100045C19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -439,7 +270,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SecretsManager/Preview Content\"";
 				DEVELOPMENT_TEAM = NFB35DJG93;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -468,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		8BAC86192D804FC9006E90F0 /* Release */ = {
+		8B54B45E2D816C4100045C19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -478,7 +309,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SecretsManager/Preview Content\"";
 				DEVELOPMENT_TEAM = NFB35DJG93;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -503,96 +334,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		8BAC861B2D804FC9006E90F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NFB35DJG93;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.plexus.SecretsManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretsManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecretsManager";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		8BAC861C2D804FC9006E90F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NFB35DJG93;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.plexus.SecretsManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretsManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecretsManager";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		8BAC861E2D804FC9006E90F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NFB35DJG93;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.plexus.SecretsManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = SecretsManager;
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		8BAC861F2D804FC9006E90F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NFB35DJG93;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.plexus.SecretsManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = SecretsManager;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -600,43 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BAC85ED2D804FC7006E90F0 /* Build configuration list for PBXProject "SecretsManager" */ = {
+		8B54B4482D816C4000045C19 /* Build configuration list for PBXProject "SecretsManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BAC86152D804FC9006E90F0 /* Debug */,
-				8BAC86162D804FC9006E90F0 /* Release */,
+				8B54B45A2D816C4100045C19 /* Debug */,
+				8B54B45B2D816C4100045C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BAC86172D804FC9006E90F0 /* Build configuration list for PBXNativeTarget "SecretsManager" */ = {
+		8B54B45C2D816C4100045C19 /* Build configuration list for PBXNativeTarget "SecretsManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BAC86182D804FC9006E90F0 /* Debug */,
-				8BAC86192D804FC9006E90F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8BAC861A2D804FC9006E90F0 /* Build configuration list for PBXNativeTarget "SecretsManagerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BAC861B2D804FC9006E90F0 /* Debug */,
-				8BAC861C2D804FC9006E90F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8BAC861D2D804FC9006E90F0 /* Build configuration list for PBXNativeTarget "SecretsManagerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BAC861E2D804FC9006E90F0 /* Debug */,
-				8BAC861F2D804FC9006E90F0 /* Release */,
+				8B54B45D2D816C4100045C19 /* Debug */,
+				8B54B45E2D816C4100045C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8BAC85EA2D804FC7006E90F0 /* Project object */;
+	rootObject = 8B54B4452D816C4000045C19 /* Project object */;
 }
